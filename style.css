@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Hind", sans-serif;
+}
+
+.logo {
+  display: block;
+  position: relative;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+
+header {
+  background-image: url(img/Enmascarar\ grupo\ 289.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0px;
+  height: 679.26px;
+  display: grid;
+  grid-template-rows: 130px 1fr 1fr 1fr;
+}
+
+h1 {
+  width: 924.54;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.17;
+  font-stretch: normal;
+  font-style: normal;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.MenuBotones {
+  background-image: url(img/Enmascarar\ grupo\ 259.webp);
+  background-size: cover;
+  height: 500px;
+}
+
+footer {
+  background: linear-gradient(90deg, #1489ff 0%, #0073e6 100%);
+  height: 236.41px;
+  display: grid;
+  grid-template-rows: 1fr 1px 1fr;
+}
+
+.LineaBlanca {
+  background-color: white;
+  width: 80%;
+  height: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer.logo {
+  width: 34px;
+}
+
+aside {
+  background-color: rgb(11, 146, 241);
+  border-radius: 50%;
+  color: rgb(248, 247, 246);
+  text-align: center;
+  z-index: 2;
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  left: 95%;
+  bottom: 12px;
+}
+
+.btnRegis {
+  display: block;
+  margin-top: -36px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Hind", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  height: 56.6px;
+  width: 255px;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 0.2cm;
+  box-shadow: -2px 26px 32px -15px rgba(0, 0, 0, 0.5);
+  background: linear-gradient(0deg, #007fff 0%, #00b1ff 100%);
+}
+
+.Proceso.principal {
+  display: block;
+  max-width: 868px;
+  margin: auto;
+  text-align: center;
+}
