@@ -74,7 +74,7 @@ div.footer.logos {
   grid-template-columns: 6fr repeat(6, 1fr);
   justify-content: center;
   justify-items: end;
-  margin-top: 12%;
+  margin-top: 10%;
 }
 img.fb {
   grid-column: 2;
@@ -87,6 +87,42 @@ img.fb {
   margin-left: auto;
   margin-right: auto;
 }
+
+div.derechos {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.derechos {
+  line-height: 1rem;
+  font-size: 14px;
+  color: white;
+  justify-items: end;
+  align-items: center;
+}
+
+div.derTerCon {
+  grid-column: 2;
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto auto auto;
+  justify-items: end;
+}
+/*
+a.derechos.politicas {
+  justify-self: space;
+}
+
+a.derechos.terminos {
+  justify-self: center;
+}
+
+a.derechos.venn {
+  justify-self: end;
+}*/
 
 /*aside*/
 aside {
@@ -101,6 +137,8 @@ aside {
   left: 95%;
   bottom: 12px;
 }
+
+/*Botones */
 
 .btnRegis {
   display: block;
@@ -117,6 +155,13 @@ aside {
   border-radius: 0.2cm;
   box-shadow: -2px 26px 32px -15px rgba(0, 0, 0, 0.5);
   background: linear-gradient(0deg, #007fff 0%, #00b1ff 100%);
+}
+
+.btnRegis:hover {
+  color: #0073e6;
+  border: #0073e6 2px solid;
+  background: rgb(248, 247, 246);
+  cursor: pointer;
 }
 
 .Proceso.principal {
