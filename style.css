@@ -39,6 +39,16 @@ h1 {
   background-size: cover;
   height: 500px;
 }
+/*Carrusel */
+
+div.carrusel {
+  background-color: #da6f45;
+  margin-bottom: 2%;
+  display: grid;
+  grid-template-columns: 1fr 59px 1fr;
+  grid-template-columns: 100% 3rem;
+  height: 335px;
+}
 
 /*Footer*/
 
