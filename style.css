@@ -76,7 +76,6 @@ div.columnas {
 .Plataforma {
   margin-left: auto;
   margin-right: auto;
-  background-color: #d2e081;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
@@ -86,12 +85,12 @@ div.columnas {
 
 div.btn {
   border: black 1px solid;
-  background-color: #e74aec;
+  background-color: #ffffff;
   width: 75%;
   margin: 15px 6%;
   padding: 22px 5%;
   display: grid;
-  grid-template-rows: 15px 1fr 1fr;
+  grid-template-rows: 35px 1fr 1fr;
   justify-items: center;
 }
 
