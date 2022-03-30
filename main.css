@@ -59,10 +59,28 @@ div.carrusel {
 
 /* Servicios principales*/
 
-.servicios {
-  background-color: aquamarine;
+section.servicios {
+  background-color: rgb(50, 42, 165);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100% 60px;
+  margin: 0px;
+  padding-bottom: 62px;
+  align-items: center;
+  justify-content: center;
 }
 
+img.imagen {
+  background-color: antiquewhite;
+}
+
+button.btnRegis.serv {
+  grid-column: 2;
+  grid-row: 2;
+  position: relative;
+  top: -26px;
+  left: 10px;
+}
 /* Proceso */
 
 .Proceso.principal {
