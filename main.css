@@ -179,28 +179,24 @@ p.descripcionserv {
 /* Proceso */
 
 .Proceso.principal {
-  background-color: rgb(197, 118, 207);
+  border: purple 2px solid;
 }
 
 /*contenedor principal*/
 div.columnas {
-  background-color: rgb(16, 148, 56);
-  display: block;
+  border: green 1px solid;
   margin: auto;
   max-width: 862px;
   text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .propinimg {
   max-width: 35px;
 }
 
-.columna1,
-.columna3 {
-  background-color: rgb(228, 191, 121);
-}
-
-.columnas .columna div {
+.columna div {
   display: block;
   border: black 1px solid;
   background-size: cover;
@@ -209,6 +205,11 @@ div.columnas {
   /*height: 100%;*/
   max-width: 200px;
   max-height: 200px;
+  margin: auto;
+}
+
+.columna div:hover {
+  cursor: pointer;
 }
 
 .img1 {
@@ -222,9 +223,17 @@ div.columnas {
   background: url(img/Grupo7024@3x.webp) no-repeat;
 }
 
-.columna2 {
-  background-color: rgb(235, 112, 112);
+.img1:hover {
+  background: url(img/nuevo7023.svg) no-repeat;
 }
+
+.img2:hover {
+  background: url(img/nuevo725.svg) no-repeat;
+}
+.img3:hover {
+  background: url(img/nuevo724.svg) no-repeat;
+}
+
 /*Seccion imagenes */
 
 section.imagenes {
