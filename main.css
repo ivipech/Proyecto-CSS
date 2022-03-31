@@ -179,26 +179,35 @@ p.descripcionserv {
 /* Proceso */
 
 .Proceso.principal {
-  border: purple 2px solid;
+  margin-top: 40px;
 }
 
 /*contenedor principal*/
+
 div.columnas {
-  border: green 1px solid;
   margin: auto;
   max-width: 862px;
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  background: url(img/linea.png) no-repeat;
+  background-size: 89%;
+  background-position: center;
+  background-position-y: 45%;
 }
 
+div.columna.columna1 {
+  margin-left: -85px;
+}
+div.columna.columna3 {
+  margin-right: -85px;
+}
 .propinimg {
   max-width: 35px;
 }
 
 .columna div {
   display: block;
-  border: black 1px solid;
   background-size: cover;
   height: 200px;
   width: 100%;
@@ -225,13 +234,16 @@ div.columnas {
 
 .img1:hover {
   background: url(img/nuevo7023.svg) no-repeat;
+  background-size: cover;
 }
 
 .img2:hover {
-  background: url(img/nuevo725.svg) no-repeat;
+  background: url(img/nuevo7025.svg) no-repeat;
+  background-size: cover;
 }
 .img3:hover {
   background: url(img/nuevo724.svg) no-repeat;
+  background-size: cover;
 }
 
 /*Seccion imagenes */
@@ -413,15 +425,19 @@ a.derechos.venn {
 /*aside*/
 aside {
   background-color: rgb(11, 146, 241);
+  background-image: url(img/chat.jpg);
+  background-size: 80%;
+  background-position-x: 50%;
+  background-position-y: 50%;
   border-radius: 50%;
   color: rgb(248, 247, 246);
   text-align: center;
   z-index: 2;
-  height: 50px;
-  width: 50px;
+  height: 60px;
+  width: 60px;
   position: fixed;
   left: 95%;
-  bottom: 12px;
+  bottom: 30px;
 }
 
 /*Botones */
