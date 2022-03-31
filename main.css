@@ -181,6 +181,7 @@ p.descripcionserv {
 .Proceso.principal {
   background-color: rgb(197, 118, 207);
 }
+
 /*contenedor principal*/
 div.columnas {
   background-color: rgb(16, 148, 56);
@@ -197,6 +198,16 @@ div.columnas {
 .columna1,
 .columna3 {
   background-color: rgb(228, 191, 121);
+}
+
+div.img1 {
+  display: block;
+  background: url(img/Grupo9210@3x.webp) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  max-width: 200px;
+  max-height: 200px;
 }
 
 .columna2 {
