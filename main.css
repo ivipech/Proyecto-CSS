@@ -12,7 +12,7 @@ img.logo {
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 100%;
+  max-width: 75px;
 }
 
 header {
@@ -30,8 +30,9 @@ header {
 }
 
 h1 {
-  width: 924.54;
+  max-width: 924.54;
   font-weight: 700;
+  font-size: 43px;
   text-align: center;
   line-height: 1.17;
   font-stretch: normal;
@@ -40,15 +41,23 @@ h1 {
   margin-top: 15px;
 }
 
+p.textoinicial {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 100;
+  margin-top: 1vw;
+  margin-bottom: 1.8vw;
+}
+
+a#linkinicial {
+  color: #1489ff;
+  font-weight: 600;
+}
+
 div.divbtn {
   max-height: 50px;
   position: relative;
   top: -80px;
-}
-
-h2 {
-  font-size: 2rem;
-  text-align: center;
 }
 
 .MenuBotones {
@@ -135,7 +144,12 @@ div.csrrEst {
 
 /* Servicios principales*/
 
-section.servicios {
+h2 {
+  font-size: 2.6rem;
+  text-align: center;
+}
+
+div.servcontenedor {
   display: grid;
   width: 80%;
   margin-left: auto;
@@ -246,42 +260,6 @@ div.columna.columna3 {
   background-size: cover;
 }
 
-/*Seccion imagenes */
-
-section.imagenes {
-  background-image: url(img/fonto-servicios.png);
-  background-size: cover;
-  background-position: 50%;
-  background-repeat: no-repeat;
-  z-index: 1;
-  width: 100%;
-  padding-right: 0.3%;
-  padding-left: 0.9%;
-  margin-left: auto;
-  margin-right: auto;
-  height: 35vw;
-  max-height: 850px;
-  max-width: 2560px;
-  display: grid;
-  grid-template-columns: 50% 50%;
-  align-items: center;
-}
-
-.imgcompu.uno {
-  width: 700px;
-  display: inline-block;
-  z-index: 1;
-  position: relative;
-  left: 150px;
-}
-.imgcompu.dos {
-  display: inline;
-  justify-self: start;
-  position: relative;
-  right: 169px;
-  top: -50px;
-  width: 700px;
-}
 /* Links botones PLataforma que lo tiene todo */
 
 .Plataforma {
