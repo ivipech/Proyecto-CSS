@@ -1,6 +1,4 @@
 body {
-  margin: 0 !important;
-  padding: 0 !important;
   font-family: "Hind", sans-serif !important;
 }
 
@@ -12,18 +10,13 @@ header {
   max-width: 2560px;
   margin: 0 auto;
   position: relative;
-  background-position: 50%;
+  background-position: 50% 100%;
+  background-size: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   box-sizing: border-box;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 550px;
-}
-
-@media (max-width: 980px) {
-  header {
-    max-width: 1080px;
-  }
 }
 
 .header {
@@ -307,11 +300,15 @@ span {
 
 section.MenuBotones {
   background-image: url(img/Enmascarar\ grupo\ 259.webp);
+  padding-top: 13px;
+  padding-bottom: 100px;
   background-position: top center;
   background-size: cover;
-  width: 100%;
-  margin-top: 80px;
-  padding-top: 13px;
+  max-width: 2560px;
+  margin-top: 50px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h2.titulobtns {
@@ -322,31 +319,26 @@ h2.titulobtns {
   line-height: 3rem;
 }
 
-.Plataforma {
-  width: 70%;
+div.Plataforma {
+  max-width: 950px;
   margin-left: auto;
   margin-right: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
+  margin-bottom: 65px;
 }
 
 div.btn {
-  border: black 1px solid;
+  box-sizing: border-box;
   background-color: #ffffff;
-  /*width: 284px;
-  height: 131px;
-  margin: 15px 6%;
-  padding: 22px 5%;
-  object-fit: contain;*/
   display: grid;
-  width: 80%;
+  width: 90%;
   word-break: break-all;
   margin: 15px 6%;
   padding: 22px 15px;
+  object-fit: contain;
   font-family: "Hind", sans-serif;
-  /*object-fit: contain;*/
-  /*grid-template-rows: 35px 1fr 1fr;*/
   justify-items: center;
   border-radius: 10px;
   box-shadow: 0 20px 15px 0 rgba(26, 72, 100, 0.1);
@@ -371,6 +363,10 @@ a {
   font-family: "Hind", sans-serif;
 }
 
+span.TextoA,
+span.TextoB {
+  font-size: 15px;
+}
 /*Footer*/
 
 footer {
@@ -378,7 +374,6 @@ footer {
   height: 236.41px;
   display: grid;
   grid-template-rows: 1fr 1px 1fr;
-  margin-top: 10%;
 }
 
 div.footer.padre {
@@ -470,8 +465,8 @@ aside {
   height: 60px;
   width: 60px;
   position: fixed;
-  left: 95%;
-  bottom: 30px;
+  right: 10%;
+  bottom: 10%;
 }
 
 /*Botones */
