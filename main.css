@@ -1,5 +1,11 @@
+html {
+  width: 100%;
+}
 body {
   font-family: "Hind", sans-serif !important;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
 }
 
 /* Header */
@@ -8,13 +14,15 @@ header {
   background-image: url(img/fondo1dif.png);
   padding-top: 46px;
   max-width: 2560px;
+  width: 100vw;
   margin: 0 auto;
+  word-wrap: break-word;
   position: relative;
-  background-position: 50% 100%;
+  background-position: 50%;
   background-size: 100%;
   background-size: cover;
   background-repeat: no-repeat;
-  box-sizing: border-box;
+  /*box-sizing: border-box;*/
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 550px;
 }
@@ -452,6 +460,8 @@ a.derechos.venn {
 }*/
 
 /*aside*/
+
+/*
 aside {
   background-color: rgb(11, 146, 241);
   background-image: url(img/chat.jpg);
@@ -465,9 +475,9 @@ aside {
   height: 60px;
   width: 60px;
   position: fixed;
-  right: 10%;
+  right: 5%;
   bottom: 10%;
-}
+}*/
 
 /*Botones */
 
