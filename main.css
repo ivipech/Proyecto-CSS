@@ -13,7 +13,7 @@ header {
   background-image: url(img/fondo1dif.png);
   padding-top: 46px;
   max-width: 1517px; /* ----------------------------------------  */
-  width: 100vw;
+  width: 100%;
   word-wrap: break-word;
   position: relative;
   background-position: 50%;
@@ -53,27 +53,6 @@ h1.header {
   white-space: pre-wrap;
 }
 
-@media screen and (max-width: 981px) {
-  h1.header {
-    padding-left: 1px;
-    padding-right: 1px;
-  }
-
-  img.logo {
-    margin-top: 60px;
-  }
-}
-
-@media screen and (max-width: 760px) {
-  img.logo.header {
-    margin-top: 20px;
-  }
-
-  h1.header {
-    margin-top: -40px;
-  }
-}
-
 div {
   box-sizing: border-box;
 }
@@ -98,6 +77,40 @@ a#linkinicial {
   max-height: 50px;
   position: relative;
   align-self: center;
+}
+
+/*Responsivo header*/
+
+@media screen and (max-width: 981px) {
+  header.header {
+    max-width: fit-content;
+  }
+  h1.header {
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+
+  img.logo {
+    margin-top: 60px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  img.logo.header {
+    margin-top: 20px;
+  }
+
+  h1.header {
+    margin-top: -40px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  div.textos.header {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 /*Carrusel */
@@ -322,7 +335,7 @@ button.btnRegis.serv {
 
 /*Principales herramientas responsivo*/
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
   div.servcontenedor.serv {
     padding-top: 0;
     padding-bottom: 0;
@@ -541,7 +554,7 @@ div.footer.logos {
   grid-template-columns: 6fr repeat(6, 1fr);
   justify-content: center;
   justify-items: end;
-  margin-top: 10%;
+  margin-top: 70px;
 }
 img.fb {
   grid-column: 2;
@@ -578,18 +591,60 @@ div.derTerCon {
   grid-template-columns: auto auto auto;
   justify-items: end;
 }
-/*
-a.derechos.politicas {
-  justify-self: space;
+
+/*Footer Resonsivo */
+
+@media screen and (max-width: 840px) {
+  div.footer.padre {
+    grid-template-columns: 1fr;
+  }
+
+  div.footer.logo {
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+
+  div.footer.logos {
+    margin-top: 25px;
+  }
 }
 
-a.derechos.terminos {
-  justify-self: center;
-}
+@media screen and (max-width: 640px) {
+  div.footer.padre {
+    grid-template-columns: 1fr;
+  }
 
-a.derechos.venn {
-  justify-self: end;
-}*/
+  div.footer.logo {
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+
+  div.footer.logos {
+    margin-top: 25px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr;
+    justify-items: center;
+    justify-content: space-between !important;
+  }
+
+  img.fb {
+    grid-column: 1;
+  }
+
+  img.tk {
+  }
+
+  img.ig {
+  }
+  img.yt {
+  }
+  img.tt {
+  }
+}
 
 /*aside*/
 
@@ -606,8 +661,8 @@ aside {
   height: 60px;
   width: 60px;
   position: fixed;
-  right: 5%;
-  bottom: 10%;
+  left: 92vw;
+  bottom: 5vw;
 }
 
 /*Botones */
