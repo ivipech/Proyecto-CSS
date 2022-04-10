@@ -1,5 +1,8 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
-  width: 100%;
 }
 body {
   font-family: "Hind", sans-serif !important;
@@ -13,7 +16,6 @@ header {
   background-image: url(img/fondo1dif.png);
   padding-top: 46px;
   max-width: 1517px; /* ----------------------------------------  */
-  width: 100%;
   word-wrap: break-word;
   position: relative;
   background-position: 50%;
@@ -81,7 +83,7 @@ a#linkinicial {
 
 /*Responsivo header*/
 
-@media screen and (max-width: 981px) {
+@media screen and (max-width: 723px) {
   header.header {
     max-width: fit-content;
   }
@@ -103,19 +105,27 @@ a#linkinicial {
   h1.header {
     margin-top: -40px;
   }
-}
 
-@media screen and (max-width: 660px) {
-  div.textos.header {
-    max-width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+  h1.header,
+  p.textoinicial {
+    max-width: 740px;
+  }
+
+  div.carrPadre.media {
+    margin-left: 200px;
   }
 }
 
+@media screen and (max-width: 540px) {
+  h1.header,
+  p.textoinicial {
+    max-width: 540px;
+  }
+}
 /*Carrusel */
 
 div.carrusel {
+  box-sizing: border-box;
   position: relative;
   grid-row: 4;
   display: grid;
@@ -124,6 +134,7 @@ div.carrusel {
 }
 
 .carrPadre {
+  box-sizing: border-box;
   border: #c3d5e0 1px solid;
   background-image: linear-gradient(to bottom, #fff 45%, #fff 78%, #f8fcff);
   box-shadow: 0px 15px 15px 0 rgb(26 72 100 / 15%);
@@ -262,6 +273,19 @@ div.csrrEst {
   }
 }
 
+@media screen and (max-width: 670px) {
+  .textos.header {
+    max-width: 500px;
+  }
+
+  img.logo.header {
+    margin-right: 50%;
+  }
+
+  .header {
+    margin-left: 10vw;
+  }
+}
 /* Servicios principales*/ /* --------------------------------------------------------- */
 
 h2 {
@@ -390,6 +414,7 @@ div.columna.columna3 {
 }
 .propinimg {
   max-width: 35px;
+  justify-self: center;
 }
 
 .columna div {
@@ -409,6 +434,7 @@ div.columna.columna3 {
 
 .img1 {
   background: url(img/Grupo9210@3x.webp) no-repeat;
+  background-position: 50%;
 }
 
 .img2 {
@@ -421,6 +447,7 @@ div.columna.columna3 {
 .img1:hover {
   background: url(img/nuevo7023.svg) no-repeat;
   background-size: cover;
+  background-position: 50%;
 }
 
 .img2:hover {
@@ -436,6 +463,28 @@ span {
   font-size: 26px;
   font-family: inherit;
   font-weight: inherit;
+}
+
+@media screen and (max-width: 700px) {
+  div.columnas {
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr 1fr;
+    background: url(img/linea.png) no-repeat;
+    background-size: 89%;
+    background-position: center;
+    background-position-y: 45%;
+    justify-items: center;
+  }
+
+  div.columna.columna1 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  div.columna.columna3 {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 /* Links botones PLataforma que lo tiene todo */
 
