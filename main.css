@@ -268,7 +268,7 @@ div.csrrEst {
   .Profesion {
     position: absolute;
     bottom: 118px;
-    left: 304px;
+    left: 220px;
     color: #0073e6;
   }
 }
@@ -722,6 +722,14 @@ aside {
   position: fixed;
   left: 92vw;
   bottom: 5vw;
+}
+
+/*Aside media*/
+
+@media screen and (max-width: 680px) {
+  aside {
+    left: 80vw;
+  }
 }
 
 /*Botones */
