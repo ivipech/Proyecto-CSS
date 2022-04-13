@@ -2,8 +2,6 @@
   box-sizing: border-box;
 }
 
-html {
-}
 body {
   font-family: "Hind", sans-serif !important;
   margin: 0;
@@ -554,7 +552,6 @@ div.btn:hover {
   width: 35px;
   height: 35px;
   display: block;
-  /*margin-bottom: 2rem;*/
 }
 
 a {
