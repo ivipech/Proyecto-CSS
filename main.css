@@ -703,6 +703,21 @@ div.derTerCon {
   }
   img.tt {
   }
+
+  div.derechos {
+    grid-template-columns: 1fr;
+  }
+
+  div.derTerCon {
+    grid-column: 1;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+  }
+
+  a.derechos {
+    margin-top: 5px;
+  }
 }
 
 /*aside*/
