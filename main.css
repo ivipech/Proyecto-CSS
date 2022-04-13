@@ -743,7 +743,8 @@ aside {
 
 @media screen and (max-width: 680px) {
   aside {
-    left: 80vw;
+    left: 88vw;
+    top: 68vh;
   }
 }
 
