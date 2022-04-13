@@ -230,7 +230,7 @@ div.csrrEst {
     grid-row: 2;
     height: 300px;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
   }
 
   div.carrProEst {
@@ -301,7 +301,7 @@ div.servcontenedor.serv {
   box-sizing: border-box;
   position: relative;
 
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 h3 {
@@ -314,7 +314,6 @@ h3 {
 div.servdiv {
   background-color: #fff;
   border-radius: 10px;
-
   box-shadow: 0 10px 30px 0 rgb(195 213 224 / 50%);
   max-width: 370px;
   padding-top: 0.5rem;
@@ -354,7 +353,7 @@ button.btnRegis.serv {
 
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
 
     margin-left: auto;
     margin-right: auto;
@@ -384,7 +383,7 @@ div.columnas {
   max-width: 862px;
   text-align: center;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   background: url(img/linea.png) no-repeat;
   background-size: 89%;
   background-position: center;
@@ -454,7 +453,7 @@ span {
 @media screen and (max-width: 700px) {
   div.columnas {
     grid-template-columns: auto;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
     background: url(img/linea.png) no-repeat;
     background-size: 89%;
     background-position: center;
@@ -519,7 +518,7 @@ div.Plataforma {
   margin-left: auto;
   margin-right: auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   justify-items: center;
   margin-bottom: 65px;
 }
@@ -641,7 +640,7 @@ div.derTerCon {
   grid-column: 2;
   display: grid;
   width: 100%;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: repeat(3, auto);
   justify-items: end;
 }
 
